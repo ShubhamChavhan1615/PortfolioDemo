@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb+srv://shubham1615:shubham123@demo.gusbd8t.mongodb.net/?retryWrites=true&w=majority&appName=Demo')
+mongoose.connect('mongodb+srv://shubham1615:shubham123@working.qonmzcc.mongodb.net/?retryWrites=true&w=majority&appName=Working')
     .then(() => {
         console.log(`connected`);
     }).catch((error) => {
